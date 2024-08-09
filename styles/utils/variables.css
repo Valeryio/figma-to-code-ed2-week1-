@@ -1,0 +1,16 @@
+
+:root
+{
+    /*----------------Font variables---------------*/
+    --ff-normal: "raleway";
+
+
+    /*--------------Color variables--------------*/
+    --clr-black-neutral-800: #0E1218;
+    --clr-black-neutral-600: #181D28;
+
+    --clr-gray-neutral-50: #E8E9EA;
+    --clr-gray-bckground: #F8F8F8;
+    --clr-gray-neutral-100: #B8BABE;
+    --clr-primary-white: #fff;
+}

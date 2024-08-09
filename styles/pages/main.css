@@ -1,0 +1,15 @@
+
+/*Importing bases and reset effects*/
+@import "../base/typo.css";
+@import "../base/reset.css";
+
+/*Importing predefined variables*/
+@import "../utils/variables.css";
+
+/*Importing the buttons and other components*/
+@import "../components/buttons.css";
+
+/*Importing the elements of the layout*/
+@import "../layout/header.css";
+@import "../layout/footer.css";
+
