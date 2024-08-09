@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,39 +12,239 @@
         src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
     </script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <title>Test</title>
+    <title>Ballamas</title>
 </head>
 <body>
+
+    <header class="header">
+        <p class="header__ad">Sign up and get 20% off for all new arrivals collections</p>
+        <div class="header__container">
+            <img src="./assets/icons/hambuger-menu.svg" alt="" class="header__hamburger-menu">
+            <nav class="header__categories-container">
+                <li class="header__category">
+                    <a href="#" class="header__category-link">Men</a>
+                </li>
+                <li class="header__category">
+                    <a href="#" class="header__category-link">Women</a>
+                </li>
+                <li class="header__category">
+                    <a href="#" class="header__category-link">Kids</a>
+                </li>
+                <li class="header__category">
+                    <a href="#" class="header__category-link">Collection</a>
+                </li>
+            </nav>
+
+            <img class="header__logo" src="./assets/logo/ballamas_black.svg" alt="Logo of the e-commerce website">
+
+            <nav class="header__nav-list">
+                <li class="header__nav-list-item">
+                    <a href="#" class="header__nav-list-link" >Shop</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a href="#" class="header__nav-list-link" >About Us</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a href="#" class="header__nav-list-link" >
+                        <img src="./assets/icons/user.svg" alt="Icon of a user">
+                        Account
+                    </a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a href="#" class="header__nav-list-link" >Cart(0)</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a href="#" class="header__nav-list-link" >
+                        <img src="./assets/icons/search.svg" alt="Icon of search">
+                    </a>
+                </li>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="hero-header">
+        <p class="hero-header__tagline">We bring new fashion to the world</p>
+        <h1 class="hero-header__title">
+            DISCOVER THE LATEST FASHION TRENDS HERE
+        </h1>
+        <p class="hero-header__desc">
+            Discover a world of fashion with our meticulously curated outfits.
+            Shop now to update your wardrobe with chic and stylish outfits.
+        </p>
+        <button class="btn btn-primary--white">Start shopping</button>
+    </section>
+
+    <section class="product-catalog">
+        <h2 class="product-catalog__title">
+
+        </h2>
+        <div class="product-catalog__categories-container">
+            <button class="btn product-catalog__category">All 
+                <span class="product__number"></span>
+            </button>
+            <button class="btn product-catalog__category">Accessories 
+                <span class="product__number"></span>
+            </button>
+            <button class="btn product-catalog__category">Featured 
+                <span class="product__number"></span>
+            </button>
+            <button class="btn product-catalog__category">Unisex 
+                <span class="product__number"></span>
+            </button>
+        </div>
+
+        <div class="product-catalog__articles-container">
+            <article class="product-catalog__item item-card">
+
+                <div class="item-card__content">
+                    <p class="item-card__product-reduction">GET OFF 20%</p>
+                    <img class="item-card__img" src="./assets/images/summer-shirt.png" 
+                    alt="An image of the article">
+                    <button class="btn btn--shop--white">ADD TO CART</button>
+                    <button class="btn btn--shop--bordered">BUY NOW</button>
+                </div>
+                <p class="item-card__product-name">
+                    SUMMER SHIRT
+                </p>
+                <p class="item-card__product-price">$99</p>
+            </article>
+        </div>
+
+        <button class="btn btn-primary">
+
+        </button>
+
+    </section>
+
+    <section class="product-collection">
+        <h2 class="product-collection__title">
+            OUR COLLECTION
+        </h2>
+        <p class="product-collection__desc">
+            Our latest collection, where classic and contemporary styles 
+            converge in perfect harmony.
+        </p>
+
+        <div class="product-collection__collections-container">
+            <div class="product-collection__simple">
+                <button class="btn btn-primary">LEARN MORE</button>
+            </div>
+
+            <div class="product-collection__classic">
+                <h3 class="product-collection__classic-title">CLASSIC MEN</h3>
+                <p class="product-collection__classic-desc">
+                    We’re changing the way things get made
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__subscription">
+            <img src="./assets/logo/ballamas_white.svg" 
+            alt="A loto of the brand" class="footer__logo">
+
+            <p class="footer__subscription-desc">
+                Subscribe to our newsletter  for upcoming products and 
+                best discount for all items
+            </p>
+            <form action="" class="footer__subscription-form">
+                <input type="email" placeholder="Your email">
+                <button class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+
+        <div class="footer__menu">
+            <nav class="footer__product-menu">
+                <h3 class="footer__product-menu-title">Product</h3>
+                <li class="footer__product-menu-item">
+                    <a href="#" class="footer__product-menu-item-link">
+                        Jacket
+                    </a>
+                </li>
+                <li class="footer__product-menu-item">
+                    <a href="#" class="footer__product-menu-item-link">
+                        T-shirt
+                    </a>
+                </li>
+                <li class="footer__product-menu-item">
+                    <a href="#" class="footer__product-menu-item-link">
+                        Jacket
+                    </a>
+                </li>
+                <li class="footer__product-menu-item">
+                    <a href="#" class="footer__product-menu-item-link">
+                        Shoes
+                    </a>
+                </li>
+                <li class="footer__product-menu-item">
+                    <a href="#" class="footer__product-menu-item-link">
+                        Sunglasses
+                    </a>
+                </li>
+            </nav>
+
+            <nav class="footer__product-categories">
+                <h3 class="footer__product-category-title">Categories</h3>
+                <li class="footer__product-category-item">
+                    <a href="#" class="footer__product-category-item-link">
+                        Man
+                    </a>
+                </li>
+                <li class="footer__product-category-item">
+                    <a href="#" class="footer__product-category-item-link">
+                        Woman
+                    </a>
+                </li>
+                <li class="footer__product-category-item">
+                    <a href="#" class="footer__product-category-item-link">
+                        Kids
+                    </a>
+                </li>
+                <li class="footer__product-category-item">
+                    <a href="#" class="footer__product-category-item-link">
+                        Gifts
+                    </a>
+                </li>
+                <li class="footer__product-category-item">
+                    <a href="#" class="footer__product-category-item-link">
+                        New arrivals
+                    </a>
+                </li>
+            </nav>
+
+            <nav class="footer__social-media">
+                <h3 class="footer__social-media-title">Our social Media</h3>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-item-link">
+                        Instagram
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-item-link">
+                        Facebook
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-item-link">
+                        Youtube
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-item-link">
+                        X
+                    </a>
+                </li>
+            </nav>
+        </div>
+
+        <p>&copy BALLAMAS 2024 by waris</p>
+    </footer>
 
     <script type="text/babel" >
         console.log(React)
     </script>
 </body>
-</html>-->
-
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-
-  <body>
-    <div id="root"></div>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/babel-standalone@6/babel.js"></script>
-
-    <script type="text/babel">
-        // Define a component called Greetings
-        function Greetings() {
-            return <h1>Hello readers, Thankyou for reading this blog !</h1>;
-        }
-
-        console.log(React);
-    </script>
-
-  </body>
-
-</html> 
+</html>
