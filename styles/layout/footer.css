@@ -1,0 +1,106 @@
+
+.footer
+{
+  display: grid;
+  gap: 4rem;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2fr);
+  padding: 2rem 4rem;
+  color: var(--clr-white-100);
+  background-color: var(--clr-black-100);
+  margin: 4rem 0 0 0;
+}
+
+.footer__subscription
+{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.footer__subscription-desc
+{
+  max-width: 64%;
+}
+
+.footer__logo
+{
+  max-width: 160px;
+}
+
+.footer__subscription-form
+{
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__subscription-input
+{
+  height: 3rem;
+  outline: none;
+  width: 100%;
+  min-width: 16rem;
+  border-radius: 2rem;
+  color: var(--clr-white-100);
+  border: 2px solid white;
+  background-color: var(--clr-black-100);
+  padding: 1rem 2rem;
+}
+
+.footer__menu
+{
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer__product-menu,
+.footer__social-media,
+.footer__product-categories
+{
+  list-style: none;
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer__product-menu-item-link,
+.footer__product-category-item-link,
+.footer__social-item-link
+{
+  font-weight: 100;
+  color: var(--clr-white-100);
+  text-decoration: none;
+}
+
+.footer__designer-contact
+{
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+
+.footer__designer-contact-link
+{
+  color: var(--clr-gray-50);
+  text-decoration: underline dotted;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  .footer
+  {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, 3);
+  }
+
+  .footer__menu
+  {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+}
