@@ -13,14 +13,14 @@
     </script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <link rel="icon" href="./assets/logo/ballamas_white.svg">
+    <link rel="stylesheet" href="styles/pages/main.css">
     <title>Ballamas</title>
 </head>
 <body>
 
     <header class="header">
-        <p class="header__ad">Sign up and get 20% off for all new arrivals collections</p>
+        <p class="header__add">Sign up and get 20% off for all new arrivals collections</p>
         <div class="header__container">
-            <img src="./assets/icons/hambuger-menu.svg" alt="" class="header__hamburger-menu">
             <nav class="header__categories-container">
                 <li class="header__category">
                     <a href="#" class="header__category-link">Men</a>
@@ -36,7 +36,27 @@
                 </li>
             </nav>
 
-            <img class="header__logo" src="./assets/logo/ballamas_black.svg" alt="Logo of the e-commerce website">
+
+
+            <div class="header__mobile-icons-container">
+                <img src="./assets/icons/hambuger-menu.svg" alt="An Hamburger menu"
+                class="header__hamburger-menu">
+
+                <a href="./index.html">
+                    <img class="header__logo" src="./assets/logo/ballamas_black.svg" 
+                    alt="Logo of the e-commerce website">
+                </a>
+
+                <div class="header__mobile-small-icons-container">
+                        <img src="./assets/icons/shop-bucket.svg" alt="A shop bucket"
+                        class="header__mobile-shop">
+    
+                        <img src="./assets/icons/search.svg" alt="Icon of search" 
+                        class="header__mobile-search">
+                </div>
+
+            </div>
+
 
             <nav class="header__nav-list">
                 <li class="header__nav-list-item">
@@ -52,12 +72,24 @@
                     </a>
                 </li>
                 <li class="header__nav-list-item">
-                    <a href="#" class="header__nav-list-link" >Cart(0)</a>
+                    <a href="#" class="header__nav-list-link header__nav-list-link-cart" >
+                        Cart(0)
+                    </a>
                 </li>
                 <li class="header__nav-list-item">
-                    <a href="#" class="header__nav-list-link" >
+                    <a href="#" class="header__nav-list-link header__nav-list-link-search" >
                         <img src="./assets/icons/search.svg" alt="Icon of search">
                     </a>
+                </li>
+            </nav>
+
+            
+            <nav class="header__nav-list-contact">
+                <li class="header__nav-list-item">
+                    <a href="#" class="header__nav-list-link" >FAQ</a>
+                </li>
+                <li class="header__nav-list-item">
+                    <a href="#" class="header__nav-list-link" >Contact Us</a>
                 </li>
             </nav>
 
@@ -243,6 +275,8 @@
 
         <p>&copy BALLAMAS 2024 by waris</p>
     </footer>
+
+    <script src="./js/hamburger-menu.js" ></script>
 
     <script type="text/babel" >
         console.log(React)

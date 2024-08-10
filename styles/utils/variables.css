@@ -2,15 +2,19 @@
 :root
 {
     /*----------------Font variables---------------*/
-    --ff-normal: "raleway";
+  --ff-normal: "raleway";
 
 
     /*--------------Color variables--------------*/
-    --clr-black-neutral-800: #0E1218;
-    --clr-black-neutral-600: #181D28;
+  --clr-black-100: #1D1D1D;
+  --clr-black-600: #181D28;
 
-    --clr-gray-neutral-50: #E8E9EA;
-    --clr-gray-bckground: #F8F8F8;
-    --clr-gray-neutral-100: #B8BABE;
-    --clr-primary-white: #fff;
+  --clr-gray-100: #7E7E7E;
+  --clr-gray-50: #C3C3C3;
+
+  --clr-olive-100: #706947;
+  --clr-dark-green-100: #2A5259;
+  --clr-purple-100: #393158;
+  --clr-green-100: #2D5C43;
+  --clr-white-100: #fff;
 }

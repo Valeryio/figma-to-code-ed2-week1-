@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo/ballamas_white.svg">
+    <title>Checkout</title>
+</head>
+<body>
+
+    <section class="checkout">
+        <h2 class="checkout__title"></h2>
+        <div class="checkout__order">
+            <h3 class="checkout__order-title"></h3>
+            <p class="checkout__order-desc">
+                By placing your order, you agree to Ballamas <a href="#">Privacy</a> and 
+                <a href="#">Policy</a>.
+            </p>
+
+            <div class="checkout__article-container">
+                <article class="checkout__article">
+                    <img src="" alt="" class="checkout__article-img">
+                    <div class="checkout__article-details">
+                        <h4 class="checkout__article-name">T-Shirt</h4>
+                        <p class="checkout__article-desc">
+                            Color: Green - Size: Large
+                        </p>
+                    </div>
+                    <p class="checkout__article-price">$174.00</p>
+                </article>
+
+                <article class="checkout__article">
+                    <img src="" alt="" class="checkout__article-img">
+                    <div class="checkout__article-details">
+                        <h4 class="checkout__article-name">
+                            Men's Dri-FIT Golf Jacket
+                        </h4>
+                        <p class="checkout__article-desc">
+                            Color: Ocean - Size: Large
+                        </p>
+                    </div>
+                    <p class="checkout__article-price">$100</p>
+                </article>
+
+                <article class="checkout__article">
+                    <img src="" alt="" class="checkout__article-img">
+                    <div class="checkout__article-details">
+                        <h4 class="checkout__article-name">
+                            Tatum 2 "Red Cement"
+                        </h4>
+                        <p class="checkout__article-desc">
+                            Size: 15
+                        </p>
+                    </div>
+                    <p class="checkout__article-price">$250.00</p>
+                </article>
+            </div>
+
+            <form action="" class="checkout-discount">
+                <input type="text" class="checkout-discount__input">
+                <button class="btn btn-primary">Apply</button>
+                <p class="checkout-discount__sign-in">
+                    <a href="#" class="checkout-discount__sign-in-link">
+                        New customer? Signup 
+                    </a>
+                    to get better offer
+                </p>
+            </form>
+
+            <div class="checkout-total">
+                <div class="checkout-total__subtotal">
+                    <p class="checkout-total__subtotal-desc">Subtotal</p>
+                    <p class="checkout-total__subtotal-price">$524.00</p>
+                </div>
+                <div class="checkout-total__discount">
+                    <p class="checkout-total__discount-desc">Discount</p>
+                    <p class="checkout-total__discount-price">$0</p>
+                </div>
+
+                <div class="checkout-total__order-total">
+                    <p class="checkout-total__order-total-desc">Order total</p>
+                    <p class="checkout-total__order-total-price">$524.00</p>
+                </div>
+            </div>
+        </div>
+
+        <form action="" class="chekout-shipping shipping-method">
+            <ul class="shipping-method__list">
+                <li class="shipping-method__list-item">
+                    <div class="shipping-method__item-details-container">
+                        <input type="radio">
+                        <div class="shipping-method__item-details">
+                            <label for="" class="shipping-method__item-details-title">
+                                Free shipping
+                            </label>
+                            <p class="shipping-method__item-details-desc">
+                                7-30 business days
+                            </p>
+                        </div>
+                        <p class="shipping-method__item-details-price">$0</p>
+                    </div>
+                </li>
+
+                <li class="shipping-method__list-item">
+                    <div class="shipping-method__item-details-container">
+                        <input type="radio">
+                        <div class="shipping-method__item-details">
+                            <label for="" class="shipping-method__item-details-title">
+                                Regular shipping
+                            </label>
+                            <p class="shipping-method__item-details-desc">
+                                3-14 business days
+                            </p>
+                        </div>
+                        <p class="shipping-method__item-details-price">$7,50</p>
+                    </div>
+                </li>
+
+                <li class="shipping-method__list-item">
+                    <div class="shipping-method__item-details-container">
+                        <input type="radio">
+                        <div class="shipping-method__item-details">
+                            <label for="" class="shipping-method__item-details-title">
+                                Express shipping
+                            </label>
+                            <p class="shipping-method__item-details-desc">
+                                1-3 business days
+                            </p>
+                        </div>
+                        <p class="shipping-method__item-details-price">$22,50</p>
+                    </div>
+                </li>
+
+            </ul>
+        </form>
+ 
+        <form class="checkout-payment payment-infos">
+            <fieldset class="payment-infos__payment-details" >
+                <legend class="payment-infos__payment-details-title" >
+                    Payment details
+                </legend>
+                <p class="payment-infos__payment-details-desc">
+                    Complete your purchase by providing your payment details.
+                </p>
+            </fieldset>
+
+            <fieldset class="payment-infos__shipping-details" >
+                <legend class="payment-infos__shipping-details-title" >
+                    Payment details
+                </legend>
+
+                <label for="#">Firstname
+                    <input type="text" placeholder="Enter your firstname" 
+                    class="payment-infos__shipping-details-input">
+                </label>
+                <label for="#">Lastname
+                    <input type="text" placeholder="Enter your  lastname" 
+                    class="payment-infos__shipping-details-input">
+                </label>
+                <label for="#">Email address
+                    <input type="email" placeholder="Enter your emal address" 
+                    class="payment-infos__shipping-details-input">
+                </label>
+                <label for="#">Phone number
+                    <input type="number" placeholder="Enter your phone number" 
+                    class="payment-infos__shipping-details-input">
+                </label>
+                <label for="#">Address
+                    <input type="text" placeholder="Enter your address" 
+                    class="payment-infos__shipping-details-input">
+                </label>
+                <label for="#">City
+                    <input type="text" placeholder="City" 
+                    class="payment-infos__shipping-details-input">
+                </label>
+                <label for="#">
+                    <select name="" id="" placeholder="Select region"
+                    class="payment-infos__shipping-details-input">
+                        <option value=""></option>
+                    </select>
+                </label>
+                <label for="#">Postal code
+                    <input type="text" placeholder="Enter your postal code" 
+                    class="payment-infos__shipping-details-input">
+                </label>
+            </fieldset>
+
+            <fieldset class="payment-infos__payment-method" >
+                <legend class="payment-infos__payment-method-title" >
+                    Select payment method
+                </legend>
+
+                <div class="payment-infos__payment-method-buttons-container">
+                    <button class="btn btn--card-option payment-infos__payment-method-buttons">
+                        <img src="" alt="A credit card">
+                        Debit / Credit Card
+                    </button>
+                    <button class="btn btn--card-option payment-infos__payment-method-buttons">
+                        <img src="" alt="A credit card">
+                        Virtual account
+                    </button>
+                </div>
+
+                <label for="#">
+                    <input type="text" placeholder="Card number"
+                    class="payment-infos__payment-method-input">
+                    <img src="./" alt="A chain icon">
+                </label>
+
+                <label for="#">
+                    <input type="text" placeholder="Expiration date (MM/YY)"
+                    class="payment-infos__payment-method-input">
+                </label>
+
+                <label for="#">
+                    <input type="text" placeholder="Security code"
+                    class="payment-infos__payment-method-input">
+                </label>
+            </fieldset>
+
+            <label for="#">
+                <input type="checkbox">
+                Use shipping address as billing address
+            </label>
+
+            <button class="btn btn-primary">
+                Pay $524.00
+                <img src="./" alt="A arrow that points to right">
+            </button>
+        </form>
+    </section>
+
+</body>
+</html>
